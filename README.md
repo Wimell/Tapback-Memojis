@@ -1,4 +1,4 @@
-![Tapback Memoji H1](./public/images/og-image.png)
+![Tapback Memoji H1](./assets/og-image.png)
 
 # Tapback Memoji's
 
