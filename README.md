@@ -7,11 +7,15 @@
 ![API Status](https://img.shields.io/badge/API-active-success.svg)
 [![GitHub stars](https://img.shields.io/github/stars/wimell/Tapback-Memojis.svg)](https://github.com/wimell/Tapback-Memojis/stargazers)
 
-Open source memojis for your apps, designs, and websites. Created by [@wes_wim](https://github.com/wes_wim)
 
 ## 🚀 Overview
 
-Tapback Memoji API provides a simple and efficient way to generate unique avatar images for your applications. Whether you need consistent avatars for user profiles or random avatars for placeholder content, our API has got you covered.
+Tapback Memoji API provides a simple and efficient way to generate unique Apple Memoji style avatars for your applications. Create a random avatar, or generate one based on any string.
+
+Key use cases:
+- Dynamic user avatars
+- Placeholder avatars
+- Figma prototyping
 
 
 <div style="display: flex; align-items: center; gap: 10px;">
