@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)
 ![API Status](https://img.shields.io/badge/API-active-success.svg)
-[![GitHub stars](https://img.shields.io/github/stars/wimell/tapback-memoji.svg)](https://github.com/wimell/tapback-memoji/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/wimell/Tapback-Memojis.svg)](https://github.com/wimell/tapback-memojis/stargazers)
 
 Open source memojis for your apps, designs, and websites. Created by [@wes_wim](https://github.com/wes_wim)
 
