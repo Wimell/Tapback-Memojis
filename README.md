@@ -1,4 +1,4 @@
-![Tapback Memoji Example](./public/images/og-image.png)
+![Tapback Memoji H1](./public/images/og-image.png)
 
 # Tapback Memoji's
 
@@ -16,6 +16,9 @@ Tapback Memoji API provides a simple and efficient way to generate unique avatar
 ## 🔗 Usage
 
 ### Get a specific avatar:
+
+![Tapback Memoji Example](https://www.tapback.co/api/avatar/user57?color=4)
+
 ```
 https://www.tapback.co/api/avatar/{name}.webp
 ```
