@@ -1,8 +1,8 @@
 {
-    "name": "laravel/laravel",
+    "name": "tapback/memojis",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "Create unique Apple style profile pictures for any use-case.",
+    "keywords": ["emoji", "avatar", "memoji", "api", "open source", "webp", "svg", "image", "design", "website"],
     "license": "MIT",
     "require": {
         "php": "^8.2",

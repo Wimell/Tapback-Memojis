@@ -2,8 +2,8 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "vite",
-        "build": "vite build"
+        "dev": "vite --config ./config/vite.config.js",
+        "build": "vite build --config ./config/vite.config.js"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.20",
