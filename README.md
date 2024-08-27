@@ -13,9 +13,6 @@ Open source memojis for your apps, designs, and websites. Created by [@wes_wim](
 
 Tapback Memoji API provides a simple and efficient way to generate unique avatar images for your applications. Whether you need consistent avatars for user profiles or random avatars for placeholder content, our API has got you covered.
 
-## 🔗 Usage
-
-### Get a specific avatar:
 
 <div style="display: flex; align-items: center; gap: 10px;">
   <img src="https://www.tapback.co/api/avatar/user57.webp?color=4" alt="Tapback Memoji Example" width="64">
@@ -23,6 +20,12 @@ Tapback Memoji API provides a simple and efficient way to generate unique avatar
   <img src="https://www.tapback.co/api/avatar/user16.webp?color=12" alt="Tapback Memoji Example" width="64">
   <img src="https://www.tapback.co/api/avatar/user22.webp?color=10" alt="Tapback Memoji Example" width="64">
 </div>
+
+## 🔗 Usage
+
+### Get a specific avatar:
+
+
 
 ```
 https://www.tapback.co/api/avatar/{name}.webp
