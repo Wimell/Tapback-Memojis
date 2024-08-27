@@ -19,7 +19,9 @@ Tapback Memoji API provides a simple and efficient way to generate unique avatar
 
 <div style="display: flex; align-items: center; gap: 10px;">
   <img src="https://www.tapback.co/api/avatar/user57.webp?color=4" alt="Tapback Memoji Example" width="64">
-  <img src="https://www.tapback.co/api/avatar/user57.webp?color=4" alt="Tapback Memoji Example" width="64">
+  <img src="https://www.tapback.co/api/avatar/user10.webp?color=7" alt="Tapback Memoji Example" width="64">
+  <img src="https://www.tapback.co/api/avatar/user16.webp?color=12" alt="Tapback Memoji Example" width="64">
+  <img src="https://www.tapback.co/api/avatar/user22.webp?color=10" alt="Tapback Memoji Example" width="64">
 </div>
 
 ```
