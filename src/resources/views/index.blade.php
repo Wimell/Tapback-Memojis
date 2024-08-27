@@ -25,9 +25,12 @@
             </div>
             <h1 class="text-2xl font-semibold mb-2">Tapback Memoji's</h1>
             <p class="text-gray-600 dark:text-gray-400 text-base">Open source memojis for your apps, designs, and websites.</p>
-            <a href="https://x.com/wes_wim" target="_blank" class="mt-2 inline-block  text-sm text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors duration-300">
-                Created by <span class="underline">@wes_wim</span>
-            </a>
+            <div class="flex items-center justify-center scale-125 mt-4 hover:scale-[1.27] transition-transform duration-50">
+                <a href="https://github.com/wimell/tapback-memojis" target="_blank">
+                    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/wimell/tapback-memojis?style=social&label=Star on Github"
+                </a>
+            </div>
+
         </header>
 
         <!-- Main Content Section -->
