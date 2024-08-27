@@ -13,8 +13,9 @@
     <meta name="twitter:title" content="Tapback Memoji's - Open Source Memojis">
     <meta name="twitter:description" content="Open source memojis for your apps, designs, and websites.">
     <meta name="twitter:image" content="{{ env('APP_URL') }}/images/og-image.png">
-    @vite('resources/css/app.css')
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
 </head>
 <body class="bg-white text-black font-mono dark:bg-black dark:text-white">
     <div class="px-4 py-12  mx-auto max-w-max">
