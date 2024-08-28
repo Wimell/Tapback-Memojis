@@ -90,9 +90,9 @@ class AvatarController extends Controller
             $canvas->flop();
         }
 
-        $canvas->resize(256, 256);
 
-        $webp = $canvas->toWebp(85);
+        $canvas->scale(128, 128)->sharpen(2);
+        $webp = $canvas->toWebp(100);
 
         Storage::disk('public')->put("avatars/generated/{$fileName}", $webp);
 
