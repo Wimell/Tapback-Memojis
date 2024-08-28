@@ -13,7 +13,7 @@
     <meta name="twitter:title" content="Tapback Memoji's - Open Source Memojis">
     <meta name="twitter:description" content="Open source memojis for your apps, designs, and websites.">
     <meta name="twitter:image" content="{{ env('APP_URL') }}/images/og-image.png">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -26,7 +26,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smile"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg>
             </div>
             <h1 class="text-2xl font-semibold mb-2">Tapback Memoji's</h1>
-            <p class="text-gray-600 dark:text-gray-400 text-base">Open source memojis for your apps, designs, and websites.</p>
+            <p class="text-gray-600 dark:text-gray-400 text-base">API for Apple Memoji avatars.</p>
             <div class="flex items-center justify-center scale-125 mt-4 hover:scale-[1.27] transition-transform duration-50">
                 <a href="https://github.com/wimell/tapback-memojis" target="_blank">
                     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/wimell/tapback-memojis?style=social&label=Star on Github"
@@ -37,6 +37,19 @@
 
         <!-- Main Content Section -->
         <main class="space-y-12">
+
+            <div class="grid grid-cols-5 md:grid-cols-10 gap-3 max-w-max mx-auto md:hidden">
+                @for ($i = 0; $i < 15; $i++)
+                        <div class="w-16 h-16  rounded-full bg-white overflow-hidden dark:bg-black">
+                            <img src="{{ route('avatar.generate', ['name' => 'user' . ($i), 'color' => $i]) }}"
+                                 class="w-full h-auto"
+                                 loading="lazy"
+                                 alt="Memoji Avatar">
+                        </div>
+                @endfor
+            </div>
+
+
             <!-- API Usage Section -->
             <div>
                 <h2 class="text-lg font-semibold mb-4">🔗 Usage</h2>
@@ -84,16 +97,7 @@
                     @endforeach
                 </div>
 
-                <div class="grid grid-cols-5 md:grid-cols-10 gap-3 max-w-max mx-auto md:hidden">
-                    @for ($i = 0; $i < 15; $i++)
-                            <div class="w-16 h-16  rounded-full bg-white overflow-hidden dark:bg-black">
-                                <img src="{{ route('avatar.generate', ['name' => 'user' . ($i), 'color' => $i]) }}"
-                                     class="w-full h-auto"
-                                     loading="lazy"
-                                     alt="Memoji Avatar">
-                            </div>
-                    @endfor
-                </div>
+
             </section>
             <!-- Example Usage Section -->
             <section class="bg-neutral-100 p-6 rounded-lg dark:bg-neutral-950">
