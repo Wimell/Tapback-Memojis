@@ -29,7 +29,7 @@
             <p class="text-gray-600 dark:text-gray-400 text-base">API for Apple Memoji avatars.</p>
             <div class="flex items-center justify-center scale-125 mt-4 hover:scale-[1.27] transition-transform duration-50">
                 <a href="https://github.com/wimell/tapback-memojis" target="_blank">
-                    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/wimell/tapback-memojis?style=social&label=Star on Github"
+                    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/wimell/tapback-memojis?style=social&label=Star on Github">
                 </a>
             </div>
 
