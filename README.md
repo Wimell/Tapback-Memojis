@@ -12,6 +12,8 @@
 
 Tapback Memoji API provides a simple and efficient way to generate unique Apple Memoji style avatars for your applications. Create a random avatar, or generate one based on any string.
 
+Check out the [website](https://www.tapback.co?ref=github-readme) for more information on the API, or install the Laravel app locally via the `src` directory.
+
 Key use cases:
 - Dynamic user avatars
 - Placeholder avatars
